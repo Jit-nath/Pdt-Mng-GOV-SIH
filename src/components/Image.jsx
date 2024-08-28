@@ -6,7 +6,7 @@ import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.jpg";
 
-const ImageSlider = () => {
+const Image = () => {
     const images = [image1, image2, image3];
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -64,4 +64,4 @@ const ImageSlider = () => {
     );
 };
 
-export default ImageSlider;
+export default Image;
