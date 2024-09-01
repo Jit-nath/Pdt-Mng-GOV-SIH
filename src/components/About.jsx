@@ -1,8 +1,8 @@
 function About() {
-    return (
-        <>
-            <h1 className="text-4x1">About</h1>
-        </>
-    );
+  return (
+    <>
+      <h1 className="text-6xl">About</h1>
+    </>
+  );
 }
 export default About;

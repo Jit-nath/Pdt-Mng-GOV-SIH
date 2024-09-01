@@ -1,11 +1,11 @@
 import Image from "../components/Image";
 
 function Home() {
-    return (
-        <>
-            <Image />
-        </>
-    );
+  return (
+    <>
+      <Image />
+    </>
+  );
 }
 
 export default Home;
