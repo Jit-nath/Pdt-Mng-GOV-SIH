@@ -17,37 +17,37 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <>
+      <div>
         <Navbar />
         <Home />
-      </>
+      </div>
     ),
   },
   {
     path: "/about",
     element: (
-      <>
+      <div>
         <Navbar />
         <About />
-      </>
+      </div>
     ),
   },
   {
     path: "/contact",
     element: (
-      <>
+      <div>
         <Navbar />
         <Contact />
-      </>
+      </div>
     ),
   },
   {
     path: "/login",
     element: (
-      <>
+      <div>
         <Navbar />
         <Login />
-      </>
+      </div>
     ),
   },
 ]);

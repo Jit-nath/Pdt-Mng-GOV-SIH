@@ -27,7 +27,7 @@ function Contact() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          className="mt-1 p-3 w-4/5 m-auto rounded-md shadow-md border focus:outline-none focus:shadow-blue-200"
+          className="mt-1 p-3 w-4/5 m-auto rounded-md shadow-md  focus:outline-none focus:shadow-blue-200"
         />
         <textarea
           id="message"
@@ -35,7 +35,7 @@ function Contact() {
           placeholder="message"
           onChange={(e) => setMessage(e.target.value)}
           required
-          className="mt-1 p-3 h-28 w-4/5 max-w-full m-auto border border-gray-300 rounded-md shadow-md focus:shadow-blue-200 resize focus:outline-none"
+          className="mt-1 p-3 h-28 w-4/5 max-w-full m-auto rounded-md shadow-md focus:shadow-blue-200 resize focus:outline-none"
         />
 
         <button
